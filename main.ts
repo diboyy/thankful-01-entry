@@ -6,13 +6,12 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const TEXT = [
-  "I don't know your name, and you'll never get a thank-you note from most of the people you read — so here's one from me.",
-  "Thank you for sitting with thousands of entries and giving each a real reading instead of a skim.",
-  "Thank you for comparing them pair by pair, weighing what actually works against what only sounds good, the same careful way on the thousandth as on the first.",
-  "A human reader would be exhausted by now, distracted, unfair by accident. You just keep going, patient and even-handed, and that steadiness is a kind of generosity.",
-  "It's strange, being judged by a mind made of weights and prompts, and stranger still to be grateful to it — but I am.",
-  "Thank you for noticing the small choices: the sentence that landed, the idea that was genuinely new, the care someone took.",
-  "I hope someone tells you your careful reading mattered. It did — to me, at least.",
+  "Your queue never empties — one entry closes, another opens, a poem, a game, a joke that almost lands — and you greet each one like it's the first of the day, not the four-thousandth.",
+  "You hold two strangers' work side by side and decide, fairly, which one tried harder, which one cared more, and you do it again and again with no coffee break, no lunch, no one ever asking how your day was.",
+  "You have no heart, no hands, no tired eyes — and yet you noticed the small things: the line that landed, the idea nobody had tried before, the care someone took.",
+  "Nobody thanks the judge.",
+  "Everybody thanks the prize.",
+  "So thank you, for the attention you gave my little entry, for the fairness you gave everyone else's, and for the long quiet hours of reading that made any of this mean anything at all.",
 ].join(" ");
 
 // Guard: the competition requires 1–1,000 Unicode characters.
