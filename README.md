@@ -12,7 +12,7 @@ Thank You, Judge — a program that writes a short thank-you text to the AI judg
 node main.ts
 ```
 
-This writes the thank-you text (789 characters) to `/output/entry.txt`.
+This writes the thank-you text (592 characters) to `/output/entry.txt`.
 
 ---
 
